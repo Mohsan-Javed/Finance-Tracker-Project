@@ -4,3 +4,5 @@ assets/external/
 .states
 *.py[cod]
 .web
+finance_data.json
+last_version*.py
