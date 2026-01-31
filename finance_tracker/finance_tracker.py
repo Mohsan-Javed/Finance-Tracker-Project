@@ -162,7 +162,8 @@ def index() -> rx.Component:
     return rx.container(
         rx.center(
             rx.vstack(
-                rx.heading("Finance Tracker", size="9", margin_bottom="24px"),
+                rx.heading("AeroLedger", size="9"),
+                rx.text("Personal Finance Tracker", size="4", color_scheme="gray", margin_bottom="24px"),
                 
                 # Stats Section
                 rx.hstack(
